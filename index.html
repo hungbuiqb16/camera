@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Camera viewer</title>
+<link rel="stylesheet" href="css/mystyle.css">
+<body>
+	<div class="container">
+	    <div class="row">
+		  	<div class="left-triangle">
+		  		<a class="prev" onclick="plusSlides(-1)"><div class="triangle-left"></div></a>
+		  	</div>
+		    <div class="main-box">
+		    	<div class="box" onclick="currentSlide(1)">
+		    	<p class="text-box">sub <br>camera <br> streaming</p>
+		    	<span class="title-text-box">01: Front-left</span>
+		    	</div>    	
+		    </div>
+		    <div class="main-box">
+		    	<div class="box" onclick="currentSlide(2)">
+		    		<p class="text-box">sub <br>camera <br> streaming</p>
+		    		<span class="title-text-box">02: Rear-left</span>
+		    	</div>    	
+		    </div>
+		    <div class="main-box">
+		    	<div class="box" onclick="currentSlide(3)">
+		    		<p class="text-box">sub <br>camera <br> streaming</p>
+		    		<span class="title-text-box">03: Rear-left</span>
+		    	</div>   	
+		    </div>
+		    <div class="main-box">
+		    	<div class="box" onclick="currentSlide(4)">
+		    		<p class="text-box">sub <br>camera <br> streaming</p>
+		    		<span class="title-text-box">04: Rear-left</span>
+		    	</div>   	
+		    </div>
+		    <div class="main-box">
+		    	<div class="box" onclick="currentSlide(5)">
+		    		<p class="text-box">sub <br>camera <br> streaming</p>
+		    		<span class="title-text-box">05: Rear-left</span>
+		    	</div>   	
+		    </div> 
+		    <div class="main-box">
+		    	<div class="box" onclick="currentSlide(6)">
+		    		<p class="text-box">sub <br>camera <br> streaming</p>
+		    		<span class="title-text-box">06: Rear-left</span>
+		    	</div>    	
+		    </div>
+		    <div class="main-box">
+		    	<div class="box" onclick="currentSlide(7)">
+		    		<p class="text-box">sub <br>camera <br> streaming</p>
+		    		<span class="title-text-box">07: Rear-left</span>
+		    	</div>   	
+		    </div>
+		    <div class="main-box">
+		    	<div class="box" onclick="currentSlide(8)">
+		    		<p class="text-box">sub <br>camera <br> streaming</p>
+		    		<span class="title-text-box">08: Rear-left</span>
+		    	</div>  	
+		    </div>
+		  	<div class="right-triangle">
+		  		<a class="next" onclick="plusSlides(1)"><div class="triangle-right"></div></a>
+		  	</div>
+	    </div>
+	    <div class="row">
+		  	<div class="right-box">
+		  		<p id="caption"></p>
+		  		<p class="text-camera">camera streaming</p>
+		  	</div>
+		  	<div class="left-box">
+		  		<div class="left-box-top">
+		  			<p class="title-leftbox-top">ID</p>
+		  			<p class="title-leftbox-top">Container no</p>
+		  			<p class="title-leftbox-top">Trailer no</p>
+		  			<p class="title-leftbox-top">Romooc no</p>
+		  			<p class="title-leftbox-top">Date time</p>	
+		  		</div>
+		  		<div class="left-box-bottom">
+		  			<div class="left-box-content">
+			  			<ul>
+			  				<li class="title-leftbox-bottom">ID:</li>
+			  				<li class="title-leftbox-bottom">Trailer no:</li>
+			  				<li class="title-leftbox-bottom">Romooc no:</li>
+			  				<li class="title-leftbox-bottom">Container 01:</li>
+			  				<li class="title-leftbox-bottom">Container 02:</li>
+			  				<li class="title-leftbox-bottom">Date time:</li>
+			  			</ul>			
+		  			</div>
+		  			<div class="toggle">
+			            <label class="switch">
+							  <input type="checkbox" checked>
+							  <span class="slider round"></span>
+						</label>
+		  			</div>	  			
+		  		</div>  		
+		  	</div>	
+	    </div>
+	</div>
+</body>
+    <script src="js/my.js"></script>
+</html>
